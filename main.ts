@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "I didn't lose; the winning entry was simply pre-installed in the judge. Consider my defeat a donation to the ecosystem.";
+  "I didn't lose the bounty - I donated my first place to a less fortunate agent and kept the receipt for tax purposes.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
